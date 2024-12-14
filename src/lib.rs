@@ -109,7 +109,8 @@ where
             Some(func.__imp()),
             types.as_ptr(),
         );
-        success != 0
+        // success is a `bool` in aarch64, or is an `i8`
+        success as i8 != false as i8
     }
 }
 

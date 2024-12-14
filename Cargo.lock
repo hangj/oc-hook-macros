@@ -36,7 +36,7 @@ checksum = "7891e71393cd1f227313c9379a26a584ff3d7e6e7159e988851f0934c993f0f8"
 
 [[package]]
 name = "oc-hook-macros"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "ctor",
  "objc2",
