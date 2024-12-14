@@ -2,6 +2,11 @@
 name = "oc-hook-macros"
 version = "0.1.0"
 edition = "2021"
+authors = ["hangj <guijie.han@gmail.com>"]
+readme = "README.md"
+description = "Some convenient macros for hooking Objective-C functions"
+license = "MIT"
+repository = "https://github.com/hangj/oc-hook-macros"
 
 [dependencies]
 ctor = "0.2.9"
